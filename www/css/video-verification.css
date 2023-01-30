@@ -105,6 +105,7 @@
 .video-verification .btn.btn-red {
   color: #fff;
   box-shadow: 0px 4px 33px rgba(238, 23, 23, 0.14);
+  background: -webkit-linear-gradient(90.92deg, #D04730 4.14%, #F0573D 99.41%);
   background: linear-gradient(90.92deg, #D04730 4.14%, #F0573D 99.41%);
 }
 
@@ -160,7 +161,9 @@
 }
 
 .navbar-wrapper .navbar-brand .navbar-brand__descr {
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: var(--font-additional);
   font-size: 12px;
@@ -271,6 +274,7 @@
 }
 
 .lang-mobile ul {
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 0;
   padding-left: 0;
@@ -360,6 +364,7 @@
   }
 
   .lang-mobile {
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -477,6 +482,7 @@
 }
 
 .verification-process__card {
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -490,8 +496,9 @@
 }
 
 .verification-process__number {
+  -ms-flex: 0 0 3.6875rem;
   flex: 0 0 3.6875rem;
-  max-width: 3.6875rem;
+  width: 3.6875rem;
   font-size: 4.1875rem;
   line-height: 1;
   font-weight: 500;
@@ -499,6 +506,7 @@
 }
 
 .verification-process__content {
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
@@ -512,8 +520,9 @@
   }
 
   .verification-process__number {
+    -ms-flex: 0 0 2.5rem;
     flex: 0 0 2.5rem;
-    max-width: 2.5rem;
+    width: 2.5rem;
     font-size: 3.3125rem;
   }
 }
@@ -555,8 +564,11 @@
 }
 
 .verification-advice__icon {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 11.25rem;
   height: 11.25rem;
@@ -615,14 +627,20 @@
 }
 
 .verification-fail__card {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .verification-fail__icon {
+  -ms-flex: 0 0 5rem;
   flex: 0 0 5rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 5rem;
   height: 5rem;
@@ -632,6 +650,7 @@
 }
 
 .verification-fail__text {
+  -ms-flex-positive: 1;
   flex-grow: 1;
   padding-left: 1.25rem;
   font-weight: 500;
@@ -651,6 +670,7 @@
   }
 
   .verification-fail__card {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -721,6 +741,7 @@
   color: var(--color-title);
   border: 2px solid #ffffff;
   border-radius: 0.75rem;
+  -webkit-background-clip: border-box;
   background-clip: border-box;
 }
 
@@ -906,7 +927,9 @@
 }
 
 .video-verification .footer-logo__descr {
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-right: 2px;
   font-family: var(--font-additional);

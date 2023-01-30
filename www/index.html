@@ -98,7 +98,7 @@
                                 <h1>Тепер стати клієнтом <span class="red-color">i</span>Pay<span class="red-color">.</span>ua значно простіше!</h1>
                                 <p>Ми впровадили систему відеоверифікації, яка дозволить укласти договір онлайн та почати співпрацю за лічені дні, без звернення безпосередньо в офіс та паперових документів.</p>
                                 <p>Достатньо мати лише свій КЕП для підписання ідентифікаційних документів</p>
-                                <a href="#verification-form-wrapper" class="btn btn-red">Залишити заявку</a>
+                                <a href="#verification-form-wrapper" class="btn btn-red scrollto">Залишити заявку</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <div class="verification-process__content">
                                 <h3>Залиште заявку у нас на сайті.</h3>
                                 <p class="mb-4">З вами зв’яжеться наш менеджер для призначення комфортного часу відеоверифікації.</p>
-                                <a href="#verification-form-wrapper">Залишити заявку</a>
+                                <a href="#verification-form-wrapper" class="scrollto">Залишити заявку</a>
                             </div>
                         </div>
                     </div>
@@ -366,21 +366,16 @@
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-
-
         <script>
-            $('a[href^="#"]').on('click', function (event) {
-                event.preventDefault();
-                var sectionTo = $(this).attr('href');
-                $('html, body').animate({
-                    scrollTop: $(sectionTo).offset().top
-                }, 600);
-            });
-        </script>
-
-        <script>
-
             $(document).ready(function () {
+
+                $('.scrollto').on('click', function (event) {
+                    event.preventDefault();
+                    var sectionTo = $(this).attr('href');
+                    $('html, body').animate({
+                        scrollTop: $(sectionTo).offset().top
+                    }, 600);
+                });
 
                 var navbarFunc = function() {
                     var docWidth = $(window).width();
@@ -399,8 +394,6 @@
                                 $('.navbar-wrapper').removeClass('bg-navbar');
                             }
                         });
-                    } else {
-                        // $('.navbar-wrapper').addClass('bg-navbar');
                     }
                 }
 
@@ -409,23 +402,6 @@
                 $(window).resize(function() {
                     navbarFunc();
                 })
-                
-
-                // $('.navbar-toggler').click(function () {
-                //     var wid = $(window).width();
-
-                //     if (wid < 992 && $(window).scrollTop() === 0) {
-
-                //         if ($('.navbar-wr').hasClass('bg-dark')) {
-                //             setTimeout(function () {
-                //                 $('.navbar-wr').removeClass('bg-dark');
-                //             }, 300);
-                //         } else {
-                //             $('.navbar-wr').addClass('bg-dark')
-                //         }
-
-                //     }
-                // });
 
             });
         </script>
