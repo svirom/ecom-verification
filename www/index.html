@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="/img/favicon.png">
+        
+                
+        <link rel="alternate" hreflang="ru-ua" href="https://ecom.ipay.ua/ru/video-verification"/>
+        <link rel="alternate" hreflang="uk-ua" href="https://ecom.ipay.ua/ua/video-verification" />
+                            
+        <title>Підключити прийом платежів за допомогою Apple Pay (iPay.ua)</title>
+        <meta name="description" content="Підключити прийом платежів за допомогою Apple Pay ✓ персональний менеджер ✓ швидке підключення ✓ надійний еквайєр iPay.ua ✓ низькі тарифи.">
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/main.css?r=1" rel="stylesheet">
+        <link href="/css/video-verification.css?r=1" rel="stylesheet">
+    </head>
+    <body class="video-verification">
+
+        <header class="navbar-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/">
+                                <span class="navbar-brand__descr">
+                                    <span>Інтернет</span>
+                                    <span>еквайринг</span>
+                                </span>
+                                <img src="/img/verification/logo-ipay-white.svg" alt="iPay">
+                            </a>
+                
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <span></span>
+                                </span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="navbar__collapse ml-auto">
+                                    <ul class="navbar-nav">
+    
+                                        <li class="nav-item dropdown nav-item-lang">
+                                            <a class="nav-link dropdown-toggle lang-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">УКР</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">РУС</a>
+                                            </div>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Про компанію</a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="mailto:sales@ipay.ua"><i class="fa fa-envelope"></i> sales@ipay.ua</a>
+                                        </li>
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="tel:+380445025075"><i class="fa fa-phone"></i> +38 044 502 50 75</a>
+                                        </li>
+                                    </ul>
+                                    <div class="lang-mobile">
+                                        <span>Мова:</span>
+                                        <ul>
+                                            <li><a href="#" class="active">УКР</a></li>
+                                            <li><a href="#">РУС</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="verification-hero">
+            <svg width="332" height="446" viewBox="0 0 332 446" fill="none" xmlns="http://www.w3.org/2000/svg" class="v v-1">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M40.2347 -20.497C114.524 -21.6665 194.816 -31.0921 251.312 17.1878C310.806 68.0287 336.075 150.235 331.47 228.381C327.098 302.557 287.649 372.056 227.807 416.057C174.913 454.948 105.775 446.157 40.2347 442.519C-19.9977 439.176 -83.922 437.939 -127.619 396.328C-172.116 353.954 -178.613 289.548 -184.635 228.381C-191.618 157.459 -212.069 76.5957 -164.304 23.7305C-115.675 -30.09 -32.2697 -19.3557 40.2347 -20.497Z" fill="#0093FF"/>
+            </svg>
+            <svg width="525" height="267" viewBox="0 0 525 267" fill="none" xmlns="http://www.w3.org/2000/svg" class="v v-2">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M277.319 -155.944C358.715 -151.612 428.687 -121.069 484.533 -81.6036C538.282 -43.6194 580.676 3.66327 576.747 55.6607C572.965 105.72 516.562 143.294 464.779 179.84C410.469 218.169 356.662 265.973 277.319 266.982C197.276 268 133.535 225.571 82.5222 184.699C36.8945 148.142 21.4596 102.805 13.5631 55.6607C4.22889 -0.0675812 -19.9915 -62.3495 33.9008 -105.586C90.1641 -150.725 189.235 -160.632 277.319 -155.944Z" fill="#2A67DC"/>
+            </svg>
+            <svg width="571" height="288" viewBox="0 0 571 288" fill="none" xmlns="http://www.w3.org/2000/svg" class="v v-3">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M266.197 0.527939C345.239 4.42283 415.015 44.7457 471.855 99.7827C529.801 155.891 581.627 224.704 580.994 305.34C580.365 385.531 526.134 451.751 468.653 507.697C412.137 562.703 345.014 608.49 266.197 611.73C184.38 615.093 99.7448 587.129 46.3736 525.056C-4.24203 466.188 4.00521 382.951 2.76016 305.34C1.48296 225.726 -12.8675 138.719 39.2092 78.4635C93.5764 15.5573 183.13 -3.56529 266.197 0.527939Z" fill="#BD00FF"/>
+            </svg>
+            <svg width="276" height="341" viewBox="0 0 276 341" fill="none" xmlns="http://www.w3.org/2000/svg" class="v v-4">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M151.084 0.60391C195.237 6.98705 204.692 65.565 229.665 102.503C247.078 128.258 268.661 150.252 273.06 181.02C278.264 217.414 278.748 256.927 255.86 285.711C230.95 317.039 190.806 329.352 151.084 334.42C104.112 340.413 47.1124 351.706 15.6317 316.362C-15.5737 281.326 8.59189 227.554 14.4535 181.02C19.2038 143.31 22.9641 106.248 45.9169 75.9394C72.974 40.2113 106.705 -5.81175 151.084 0.60391Z" fill="#FB39FF"/>
+            </svg>
+            <div class="verification-hero-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8">
+                            <div class="verification-hero__content">
+                                <h1>Тепер стати клієнтом <span class="red-color">i</span>Pay<span class="red-color">.</span>ua значно простіше!</h1>
+                                <p>Ми впровадили систему відеоверифікації, яка дозволить укласти договір онлайн та почати співпрацю за лічені дні, без звернення безпосередньо в офіс та паперових документів.</p>
+                                <p>Достатньо мати лише свій КЕП для підписання ідентифікаційних документів</p>
+                                <a href="#verification-form-wrapper" class="btn btn-red">Залишити заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-section verification-process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-4 mb-md-5">Як проходить процес відеоверифікації?</h2>
+                    </div>
+                </div>
+                <div class="row verification-divider">
+                    <div class="col-lg-4">
+                        <div class="verification-process__card mb-4 mb-lg-0">
+                            <div class="verification-process__number">1</div>
+                            <div class="verification-process__content">
+                                <h3>Залиште заявку у нас на сайті.</h3>
+                                <p class="mb-4">З вами зв’яжеться наш менеджер для призначення комфортного часу відеоверифікації.</p>
+                                <a href="#verification-form-wrapper">Залишити заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="verification-process__card mb-4 mb-lg-0">
+                            <div class="verification-process__number">2</div>
+                            <div class="verification-process__content">
+                                <h3>Перейдіть за посиланням на відеоверифікацію.</h3>
+                                <p class="mb-0">Приблизно за 5 хвилин до узгодженого часу Ви отримаєте посилання для доступу до відеоверифікації на електронну пошту чи інший вказаний засіб комунікації.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="verification-process__card">
+                            <div class="verification-process__number">3</div>
+                            <div class="verification-process__content">
+                                <h3>Пройдіть відеоверифікацію за лічені хвилини.</h3>
+                                <p class="mb-0">Оператор задасть вам ряд питань та попросить пройти інструкції для відеоверифікації.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-section verification-documents">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="verification-documents__content">
+                            <h2>Які документи треба мати з собою?</h2>
+                            <p class="mb-0">Для проведення відеоверифікації потрібна ID-картка або біометричний закордонний паспорт. Якщо жодного з цих документів немає, використовується паспорт у вигляді книжечки.</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="verification-documents__img">
+                            <img src="img/verification/verification-document.png" srcset="img/verification/verification-document.png 1x, img/verification/verification-document@2x.png 2x" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-advices">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-0 mb-md-5">Як зробити процес відеоверифікації максимально швидким та ефективним?</h2>
+                    </div>
+                </div>
+                <div class="row verification-divider">
+                    <div class="col-md-4">
+                        <div class="verification-advice verification-advice--1">
+                            <div class="verification-advice__icon">
+                                <img src="img/verification/verification-advice-1.svg" alt="Icon">
+                            </div>
+                            <p class="mb-0">До початку проведення сеансу відеозв’язку переконайтеся, що на веб-сторінці сервісу відеоверифікації дозволено використовувати камеру і мікрофон. Відеоверифікація проходить у звичайному браузері без додаткового програмного забезпечення.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="verification-advice verification-advice--2">
+                            <div class="verification-advice__icon">
+                                <img src="img/verification/verification-advice-2.svg" alt="Icon">
+                            </div>
+                            <p class="mb-0">Переконайтесь, що ви знаходитесь в достатньо освітленому приміщенні. Повинні бути чітко видні ваші обличчя та плечі. Не допускається носіння аксесуарів, що закривають обличчя, потрапляння тіні або бліків на лице.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="verification-advice verification-advice--3">
+                            <div class="verification-advice__icon">
+                                <img src="img/verification/verification-advice-3.svg" alt="Icon">
+                            </div>
+                            <p class="mb-0">Для проведення відеоверифікації не бажано використовувати мобільний зв’язок, надайте перевагу стаціонарному або WiFi підключенню до мережі. У разі переривання з будь-яких причин відеоверифікація повинна бути здійснена повторно в повному обсязі.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-section verification-fail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-4 mb-md-5">В яких випадках верифікація буде вважатись неуспішною</h2>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-1.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">ненадання Клієнтом необхідних документів чи відомостей або умисного подання неправдивих відомостей;</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-2.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">інформація, надана Клієнтом, не може бути перевірена або результати перевірки негативні;</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-3.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">наявності сумнівів щодо чинності (дійсності) ідентифікаційного документа особи, які не спростовані;</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-4.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">якщо якість фото, відео та аудіо не відповідає вимогам і правилам внутрішнього контролю ТОВ «Універсальні платіжні рішення» (далі – Товариство);</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-1.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">недотримання вимог Товариства, встановлених у внутрішніх нормативних документах;</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="verification-fail__card">
+                            <span class="verification-fail__icon">
+                                <img src="img/verification/verification-fail-5.svg" alt="Icon">
+                            </span>
+                            <span class="verification-fail__text">наявності ознак того, що на клієнта (представника клієнта чиниться вплив з боку третьої особи та/або використовується допомога третьої особи</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-form">
+            <svg width="363" height="352" viewBox="0 0 363 352" fill="none" xmlns="http://www.w3.org/2000/svg" class="vf vf-1">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M71.2347 -114.497C145.524 -115.667 225.816 -125.092 282.312 -76.8122C341.806 -25.9713 367.075 56.2346 362.47 134.381C358.098 208.557 318.649 278.056 258.807 322.057C205.913 360.948 136.775 352.157 71.2347 348.519C11.0023 345.176 -52.922 343.939 -96.6193 302.328C-141.116 259.954 -147.613 195.548 -153.635 134.381C-160.618 63.4592 -181.069 -17.4043 -133.304 -70.2695C-84.6754 -124.09 -1.26971 -113.356 71.2347 -114.497Z" fill="#00B2FF"/>
+            </svg>
+            <svg width="551" height="258" viewBox="0 0 551 258" fill="none" xmlns="http://www.w3.org/2000/svg" class="vf vf-2">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M277.319 -164.944C358.715 -160.612 428.687 -130.069 484.533 -90.6036C538.282 -52.6194 580.676 -5.33673 576.747 46.6607C572.965 96.7202 516.562 134.294 464.779 170.84C410.469 209.169 356.662 256.973 277.319 257.982C197.276 259 133.535 216.571 82.5222 175.699C36.8945 139.142 21.4596 93.8052 13.5631 46.6607C4.22889 -9.06758 -19.9915 -71.3495 33.9008 -114.586C90.1641 -159.725 189.235 -169.632 277.319 -164.944Z" fill="#2C73FF"/>
+            </svg>
+            <svg width="398" height="408" viewBox="0 0 398 408" fill="none" xmlns="http://www.w3.org/2000/svg" class="vf vf-3">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M266.197 0.563307C345.239 4.71913 415.015 47.7434 471.855 106.467C529.801 166.335 581.627 239.757 580.994 325.796C580.365 411.359 526.134 482.015 468.653 541.71C412.137 600.401 345.014 649.255 266.197 652.712C184.38 656.3 99.7448 626.463 46.3736 560.231C-4.24203 497.419 4.00521 408.606 2.76016 325.796C1.48296 240.848 -12.8675 148.013 39.2092 83.7201C93.5764 16.5996 183.13 -3.80414 266.197 0.563307Z" fill="#FF007A"/>
+            </svg>
+            <svg width="276" height="341" viewBox="0 0 276 341" fill="none" xmlns="http://www.w3.org/2000/svg" class="vf vf-4">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M151.084 0.60391C195.237 6.98705 204.692 65.565 229.665 102.503C247.078 128.258 268.661 150.252 273.06 181.02C278.264 217.414 278.748 256.927 255.86 285.711C230.95 317.039 190.806 329.352 151.084 334.42C104.112 340.413 47.1124 351.706 15.6317 316.362C-15.5737 281.326 8.59189 227.554 14.4535 181.02C19.2038 143.31 22.9641 106.248 45.9169 75.9394C72.974 40.2113 106.705 -5.81175 151.084 0.60391Z" fill="#FF00F5"/>
+            </svg>
+            <div class="verification-form-wrapper" id="verification-form-wrapper">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h2 class="text-md-center">Запис на відеоверифікацію</h2>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="verification-form__form">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="exampleTel" class="form-label">Номер телефону</label>
+                                        <input type="tel" class="form-control input-phone" id="exampleTel" placeholder="+38 096 000 00 00">
+                                        <div class="help-block"></div>
+                                    </div>                                    
+                                    <div class="form-group">
+                                        <label for="exampleName" class="form-label">Прізвище, ім’я, по батькові</label>
+                                        <input type="text" class="form-control input-name" id="exampleName" placeholder="Ткаченко Мар’яна Іванівна">
+                                        <div class="help-block"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFop" class="form-label">Назва юр. особи / ФОП</label>
+                                        <input type="text" class="form-control input-company" id="exampleFop" placeholder="ТОВ «ХЕРСОНСЬКІ КАВУНИ»">
+                                        <div class="help-block"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn-red">Відправити заявку</button>
+
+                                    <!-- <button type="button" class="btn btn-sent" disabled><span>Форма відправлена</span></button> -->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="verification-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Цим повідомленням ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ «УНІВЕРСАЛЬНІ ПЛАТІЖНІ РІШЕННЯ»» (далі по тексту – Товариство), керуючись статтями 8, 12 Закону України «Про захист персональних даних» від 1 червня 2010 року № 2297-VI повідомляє, що Товариство забезпечує обробку та захист персональних даних фізичних осіб із дотриманням вимог Конституції України, Закону України «Про захист персональних даних», інших законів та нормативно-правових актів України, Конвенції про захист осіб у зв’язку з автоматизованою обробкою персональних даних та міжнародних договорів України. Відомості про Товариство як володільця персональних даних: ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ «УНІВЕРСАЛЬНІ ПЛАТІЖНІ РІШЕННЯ» ідентифікаційний код юридичної особи: 37973023 , місцезнаходження: Україна, місто Київ, вулиця Нижньоюрківська, будинок 45-А</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer-row"> 
+                    <div class="col-xl-auto order-3 order-md-1">
+                        <a class="footer-logo" href="/">
+                            <span class="footer-logo__descr">
+                                <span>Інтернет</span>
+                                <span>еквайринг</span>
+                            </span>
+                            <img src="img/verification/logo-ipay-color.svg" alt="iPay">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg mb-0 mb-md-4 mb-lg-0 order-4 order-md-2">
+                        <div class="footer-column footer-column--text">
+                            <p class="mb-0">Підключення платіжних рішень для забезпечення онлайн оплат і регулярних платежів</p>
+                        </div>
+                    </div>
+                    <div class="w-100 order-3 d-lg-none"></div>
+                    <div class="col-md-5 col-lg-auto order-1 order-md-3">
+                        <div class="footer-column footer-column--links">
+                            <a href="tel:+380445025075"><i class="fa fa-phone foot-icon_and_text"></i> +38 044 502 50 75</a>
+                            <a href="mailto:sales@ipay.ua" class="mb-0"><i class="fa fa-envelope foot-icon_and_text"></i>sales@ipay.ua</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-auto order-2 order-md-4">
+                        <div class="footer-column footer-column--contacts">
+                            <p><i class="fa fa-map-marker foot-icon_and_text"></i>м. Київ, вул. Нижньоюрківська, 45а</p>
+                            <p class="mb-0"><i class="fa fa-clock-o foot-icon_and_text"></i>пн-пт 09:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row footer-bottom">
+                    <div class="col-12 text-md-center">
+                        <p>© іPay.ua Товариство з обмеженою відповідальністю «Універсальні платіжні рішення»</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+        <script>
+            $('a[href^="#"]').on('click', function (event) {
+                event.preventDefault();
+                var sectionTo = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(sectionTo).offset().top
+                }, 600);
+            });
+        </script>
+
+        <script>
+
+            $(document).ready(function () {
+
+                var navbarFunc = function() {
+                    var docWidth = $(window).width();
+
+                    if (docWidth > 991) {
+                        if ($(window).scrollTop() > 32) {
+                            $('.navbar-wrapper').addClass('bg-navbar');
+                        } else {
+                            $('.navbar-wrapper').removeClass('bg-navbar');
+                        }
+
+                        $(window).scroll(function () {
+                            if ($(window).scrollTop() > 32) {
+                                $('.navbar-wrapper').addClass('bg-navbar');
+                            } else {
+                                $('.navbar-wrapper').removeClass('bg-navbar');
+                            }
+                        });
+                    } else {
+                        // $('.navbar-wrapper').addClass('bg-navbar');
+                    }
+                }
+
+                navbarFunc();
+                
+                $(window).resize(function() {
+                    navbarFunc();
+                })
+                
+
+                // $('.navbar-toggler').click(function () {
+                //     var wid = $(window).width();
+
+                //     if (wid < 992 && $(window).scrollTop() === 0) {
+
+                //         if ($('.navbar-wr').hasClass('bg-dark')) {
+                //             setTimeout(function () {
+                //                 $('.navbar-wr').removeClass('bg-dark');
+                //             }, 300);
+                //         } else {
+                //             $('.navbar-wr').addClass('bg-dark')
+                //         }
+
+                //     }
+                // });
+
+            });
+        </script>
+
+    </body>
+</html>
